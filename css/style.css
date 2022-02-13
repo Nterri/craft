@@ -139,8 +139,8 @@ body.lock {
 }
 
 .header {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242b33), color-stop(51.04%, rgba(45, 52, 60, 0.38)), color-stop(92.19%, #242b33)), url(png/background.png) center/cover no-repeat;
-  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(png/background.png) center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242b33), color-stop(51.04%, rgba(45, 52, 60, 0.38)), color-stop(92.19%, #242b33)), url(../png/background.png) center/cover no-repeat;
+  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(../png/background.png) center/cover no-repeat;
   padding: 0 0 74px 0;
 }
 
@@ -490,7 +490,7 @@ body.lock {
 .start__address::before {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  content: url(svg/address.svg);
+  content: url(../svg/address.svg);
 }
 
 .start__phone {
@@ -519,7 +519,7 @@ body.lock {
 .start__phone::before {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  content: url(svg/phone.svg);
+  content: url(../svg/phone.svg);
 }
 
 .main {
@@ -731,23 +731,23 @@ body.lock {
 }
 
 .apartment-item3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 43, 51, 0)), to(#242b33)), url(png/loft3.png) center/cover no-repeat, #d4c17f;
-  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242b33 100%), url(png/loft3.png) center/cover no-repeat, #d4c17f;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 43, 51, 0)), to(#242b33)), url(../png/loft3.png) center/cover no-repeat, #d4c17f;
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242b33 100%), url(../png/loft3.png) center/cover no-repeat, #d4c17f;
 }
 
 .apartment-item3:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(36, 43, 51, 0)), to(#242b33)), url(png/loft3.png) center/cover no-repeat, #d4c17f;
-  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 90%, #242b33 100%), url(png/loft3.png) center/cover no-repeat, #d4c17f;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(36, 43, 51, 0)), to(#242b33)), url(../png/loft3.png) center/cover no-repeat, #d4c17f;
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 90%, #242b33 100%), url(../png/loft3.png) center/cover no-repeat, #d4c17f;
 }
 
 .apartment-item2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 43, 51, 0)), to(#242b33)), url(png/loft2.png) center/cover no-repeat, #d4c17f;
-  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242b33 100%), url(png/loft2.png) center/cover no-repeat, #d4c17f;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 43, 51, 0)), to(#242b33)), url(../png/loft2.png) center/cover no-repeat, #d4c17f;
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242b33 100%), url(../png/loft2.png) center/cover no-repeat, #d4c17f;
 }
 
 .apartment-item2:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(36, 43, 51, 0)), to(#242b33)), url(png/loft2.png) center/cover no-repeat, #d4c17f;
-  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 90%, #242b33 100%), url(png/loft2.png) center/cover no-repeat, #d4c17f;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(36, 43, 51, 0)), to(#242b33)), url(../png/loft2.png) center/cover no-repeat, #d4c17f;
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 90%, #242b33 100%), url(../png/loft2.png) center/cover no-repeat, #d4c17f;
 }
 
 .apartment__item-title {
@@ -780,8 +780,8 @@ body.lock {
 
 .message {
   padding: 180px 0;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.42%, #242b33), color-stop(50.52%, rgba(36, 43, 51, 0)), color-stop(90.1%, #242b33)), -webkit-gradient(linear, left bottom, left top, from(rgba(36, 43, 51, 0.9)), to(rgba(36, 43, 51, 0.9))), url(png/city.png) center/cover no-repeat, #c4c4c4;
-  background: linear-gradient(180deg, #242b33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242b33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(png/city.png) center/cover no-repeat, #c4c4c4;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.42%, #242b33), color-stop(50.52%, rgba(36, 43, 51, 0)), color-stop(90.1%, #242b33)), -webkit-gradient(linear, left bottom, left top, from(rgba(36, 43, 51, 0.9)), to(rgba(36, 43, 51, 0.9))), url(../png/city.png) center/cover no-repeat, #c4c4c4;
+  background: linear-gradient(180deg, #242b33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242b33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../png/city.png) center/cover no-repeat, #c4c4c4;
 }
 
 @media (max-width: 768px) {
@@ -996,8 +996,8 @@ body.lock {
   position: relative;
   width: 719px;
   height: 650px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 43, 51, 0.8)), to(rgba(36, 43, 51, 0.8))), url(png/video.png) center/cover no-repeat, #626262;
-  background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url(png/video.png) center/cover no-repeat, #626262;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(36, 43, 51, 0.8)), to(rgba(36, 43, 51, 0.8))), url(../png/video.png) center/cover no-repeat, #626262;
+  background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url(../png/video.png) center/cover no-repeat, #626262;
 }
 
 @media (max-width: 768px) {
@@ -1041,7 +1041,7 @@ body.lock {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: url(svg/play.svg) center/cover no-repeat;
+  background: url(../svg/play.svg) center/cover no-repeat;
 }
 
 @media (max-width: 768px) {
